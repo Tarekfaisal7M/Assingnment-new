@@ -71,8 +71,8 @@ header {
     background-size: cover;
     background-position: top 25% right 0;
     display: flex;
-    flex-direction: column;
     align-items: flex-start;
+    flex-direction: column;
     justify-content: center;
     border-radius: 4px;
 }
@@ -108,7 +108,7 @@ header {
     width: auto;
     border: 1px solid transparent;
     border-radius: 4px;
-    outline: 0;
+    outline: none;
 }
 
 .hero button {
@@ -139,12 +139,14 @@ header {
     color: #747474;
     margin: 20px;
 }
-.sec01 ul{
+
+.sec01 ul {
     padding-left: 30px;
     margin: 20px;
     color: #747474;
 }
-.sec01 button{
+
+.sec01 button {
     height: 3.125rem;
     padding: 0 1.25em;
     background-color: rgb(243, 40, 4);
@@ -155,19 +157,93 @@ header {
     cursor: pointer;
     margin: 10px;
 }
+
 .sec02 {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     margin: 40px;
 }
-.sec02 h1{
+
+.sec02 h1 {
     padding-left: 160px;
     margin: 10px;
 }
-.sec02 h6{
+
+.sec02 h6 {
     padding-left: 0;
     margin: 10px;
     font-size: 12px;
     font-weight: 100px;
+}
+
+.sec03 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.boxx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 580px;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.sec03 .box01 {
+    background-image: url(../pictures/Rectangle\ 5.png);
+}
+
+.box02 {
+    background-image: url(../pictures/Rectangle\ 8.png);
+}
+
+.sec03 h3 {
+    color: #FFF;
+    font-size: 20px;
+}
+
+.sec04 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 30px;
+}
+
+.boxx01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.sec04 .box01 {
+    background-image: url(../pictures/Rectangle\ 6.png);
+}
+
+.sec04 .box02 {
+    background-image: url(../pictures/Rectangle\ 7.png);
+}
+
+.sec04 .box03{
+    background-image: url(../pictures/Rectangle\ 9.png);
+}
+
+.sec04 h3 {
+    font-size: 20px;
+    color: #FFF;
 }

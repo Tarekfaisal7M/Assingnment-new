@@ -3,11 +3,11 @@
         flex-direction: column;
     }
 
-    .sec02 {
-        flex-direction: column;
-    }
+    /* .sec02 { */
+        /* flex-direction: column; */
+    /* } */
 
-    .hero {
-        flex-direction: column;
-    }
+    /* .hero { */
+        /* flex-direction: column; */
+    /* } */
 }
