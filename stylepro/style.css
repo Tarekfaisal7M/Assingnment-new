@@ -17,7 +17,7 @@ header {
 .header-sec {
     margin: 0 auto;
     display: flex;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     /* border: 2px solid tomato; */
 }
 
@@ -239,11 +239,50 @@ header {
     background-image: url(../pictures/Rectangle\ 7.png);
 }
 
-.sec04 .box03{
+.sec04 .box03 {
     background-image: url(../pictures/Rectangle\ 9.png);
 }
 
 .sec04 h3 {
     font-size: 20px;
     color: #FFF;
+}
+
+.sec05 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+    margin: 30px;
+}
+
+.sec05 h3 {
+    color: #FFF;
+    font-size: 20px;
+}
+.sec05 .box01{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../pictures/Rectangle\ 11.png);
+    min-width: 480px;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    border-radius: 8px;
+}
+.sec05 .box02{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../pictures/Rectangle\ 10.png);
+    min-width: 580px;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    border-radius: 8px;
 }
