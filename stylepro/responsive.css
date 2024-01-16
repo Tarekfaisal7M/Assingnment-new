@@ -2,7 +2,12 @@
     .header-sec {
         flex-direction: column;
     }
-    .sec02{
+
+    .sec02 {
+        flex-direction: column;
+    }
+
+    .hero {
         flex-direction: column;
     }
 }
