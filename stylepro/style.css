@@ -76,28 +76,33 @@ header {
     justify-content: center;
     border-radius: 4px;
 }
-.hero h1{
+
+.hero h1 {
     color: #FFF;
     font-size: 65px;
     padding-left: 450px;
     margin-bottom: 20px;
 }
-.hero div{
+
+.hero div {
     width: 1200px;
     height: auto;
     padding-left: 450px;
     margin-bottom: 20px;
 }
+
 .hero div p {
     color: aliceblue;
 }
-.hero div .text01{
+
+.hero div .text01 {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 10px;
 }
-.hero input{
+
+.hero input {
     height: 3.125rem;
     padding: 0 1.25em;
     width: auto;
@@ -105,7 +110,8 @@ header {
     border-radius: 4px;
     outline: 0;
 }
-.hero button{
+
+.hero button {
     height: 3.125rem;
     padding: 0 1.25em;
     background-color: rgb(243, 40, 4);
@@ -114,4 +120,38 @@ header {
     border-radius: 4px;
     outline: none;
     cursor: pointer;
+}
+
+.sec01 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.sec01 h1 {
+    font-size: 50px;
+    font-weight: 700px;
+    margin: 20px;
+}
+
+.sec01 p {
+    color: #747474;
+    margin: 20px;
+}
+.sec01 ul{
+    padding-left: 30px;
+    margin: 20px;
+    color: #747474;
+}
+.sec01 button{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    background-color: rgb(243, 40, 4);
+    width: auto;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    margin: 10px;
 }
