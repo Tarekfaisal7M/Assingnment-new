@@ -260,7 +260,8 @@ header {
     color: #FFF;
     font-size: 20px;
 }
-.sec05 .box01{
+
+.sec05 .box01 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -273,7 +274,8 @@ header {
     padding: 30px;
     border-radius: 8px;
 }
-.sec05 .box02{
+
+.sec05 .box02 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -285,4 +287,29 @@ header {
     background-position: center;
     padding: 30px;
     border-radius: 8px;
+}
+
+.card {
+
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    text-align: center;
+    margin: 100px;
+
+}
+.flex{
+    display: flex;
+}
+.card02{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    text-align: center;
+    margin-left: 500px;
+
 }
