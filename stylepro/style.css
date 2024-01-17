@@ -300,10 +300,12 @@ header {
     margin: 100px;
 
 }
-.flex{
+
+.flex {
     display: flex;
 }
-.card02{
+
+.card02 {
     width: 573px;
     height: 284px;
     border-radius: 16px;
@@ -311,5 +313,30 @@ header {
     background: rgba(251, 181, 99, 0.05);
     text-align: center;
     margin-left: 500px;
+}
+
+.foot {
+    display: flex;
+    color: var(--Dark-01, #131318);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
 
 }
+
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    border: 2px solid tomato;
+    width: 1440px;
+    height: 502px;
+}
+
+#run {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 6px;
+    line-height: 26px;
+}
+
